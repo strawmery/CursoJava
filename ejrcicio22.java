@@ -1,15 +1,26 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class ejrcicio22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int usuarionNum = 0;
-        Random randomNum = new Random();
-        /*while (usuarionNum != randomNum){
-            System.out.println("adivina el numero");
-            usuarionNum = sc.nextInt();
-        }*/
-        System.out.println(randomNum);
+        int numeroAleatorio = (int) ((Math.random()*100) + 1);
+        int intentos = 0;
+        int numeroAdivinar = 0;
+
+        while( numeroAleatorio != numeroAdivinar){
+            System.out.println("adivina el numero! introduce un numero");
+            numeroAdivinar = sc.nextInt();
+
+            if (numeroAleatorio > numeroAdivinar) {         
+                System.out.println("el numero es mayor al que el que has introducido");
+                intentos ++; 
+            }else if (numeroAleatorio < numeroAdivinar) {
+                System.out.println("el numero es menor al que has introducido");
+                intentos ++; 
+            }else{
+                System.out.println("has adivinado el numero, enhorabuena!");
+                System.out.println("has usado "+intentos+" intentos");
+            }
+        }
     }
 }
