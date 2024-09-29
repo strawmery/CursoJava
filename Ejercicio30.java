@@ -1,4 +1,4 @@
-public class ejrcicio30 {
+public class Ejercicio30 {
     public static void main(String[] args) {
         int [][] matriz = {
             {1,2,3},

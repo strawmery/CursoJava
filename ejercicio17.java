@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class ejercicio17 {
+public class Ejercicio17 {
     public static void main(String[] args) {
         int num = Integer.parseInt(JOptionPane.showInputDialog("intruduzca un numero: "));
         int num2 = Integer.parseInt(JOptionPane.showInputDialog("intruduzca un segundo nombre: "));

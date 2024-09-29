@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejrcicio22 {
+public class Ejercicio22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numeroAleatorio = (int) ((Math.random()*100) + 1);

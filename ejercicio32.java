@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class ejercicio32 {
+public class Ejercicio32 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String palabra;

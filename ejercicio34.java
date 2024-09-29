@@ -1,4 +1,4 @@
-public class ejercicio34 {
+public class Ejercicio34 {
     public static void main(String[] args) {
         System.out.println("Valores de int:");
         System.out.println("Valor máximo de int: " + Integer.MAX_VALUE);
